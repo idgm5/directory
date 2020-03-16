@@ -101,14 +101,13 @@ main {
 }
 
 .search-box {
-  background:rgba(255,255,255, 0.9);
-  width: 30%;
-  padding: 20px;
+  padding: 1.5rem;
 }
 
 .search-box > input {
   border: 1px solid transparent;
-  padding: 10px 0 10px 10px;
+  padding: 0.7rem;
+  width: 20rem;
   margin-right: -5px;
 }
 
@@ -116,8 +115,11 @@ main {
   border-radius: 3%;
   border: 1px solid transparent;
   color: white;
-  padding: 10px 25px;
+  padding: 0.7rem 2rem;
   background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .search-box > button:hover {
   background-position: right center;
