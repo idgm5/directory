@@ -137,6 +137,32 @@ main {
 .search-box > button:hover {
   background-position: right center;
 }
+
+.main-row-path {
+  display: grid;
+  grid-template-rows: auto auto;
+}
+
+.main-row-path-step {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 1rem 0 1rem 0;
+}
+
+.step-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.step-col > p {
+  font-size: 14px;
+  font-weight: 400;
+  color: gray;
+  width: 80%;
+}
 /*Mobile Screens*/
 @media (max-width: 767px) {
   .desktop {
