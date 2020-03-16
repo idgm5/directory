@@ -89,8 +89,38 @@ main {
 }
 
 .main-row-search-content > div {
-  text-align: center;
-  z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+}
+
+.main-row-search-content > div > h2 {
+    margin-bottom: 20px;
+}
+
+.search-box {
+  background:rgba(255,255,255, 0.9);
+  width: 30%;
+  padding: 20px;
+}
+
+.search-box > input {
+  border: 1px solid transparent;
+  padding: 10px 0 10px 10px;
+  margin-right: -5px;
+}
+
+.search-box > button {
+  border-radius: 3%;
+  border: 1px solid transparent;
+  color: white;
+  padding: 10px 25px;
+  background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
+}
+.search-box > button:hover {
+  background-position: right center;
 }
 /*Mobile Screens*/
 @media (max-width: 767px) {
