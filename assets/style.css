@@ -100,6 +100,18 @@ main {
     margin-bottom: 20px;
 }
 
+.main-row-search-content > div > a {
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(255,255,255, 0.5);
+    border-radius: 3%;
+    padding: 1.5rem;
+}
+
 .search-box {
   padding: 1.5rem;
 }
