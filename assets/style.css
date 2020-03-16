@@ -101,7 +101,6 @@ main {
 }
 
 .main-row-search-content > div > a {
-    margin-top: 20px;
     text-decoration: none;
     color: white;
     font-size: 16px;
@@ -109,7 +108,8 @@ main {
     text-transform: uppercase;
     background-color: rgba(255,255,255, 0.5);
     border-radius: 3%;
-    padding: 1.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
 }
 
 .search-box {
@@ -117,9 +117,9 @@ main {
 }
 
 .search-box > input {
-  border: 1px solid transparent;
+  border: 0;
   padding: 0.7rem;
-  width: 20rem;
+  width: 17rem;
   margin-right: -5px;
 }
 
@@ -127,7 +127,8 @@ main {
   border-radius: 3%;
   border: 1px solid transparent;
   color: white;
-  padding: 0.7rem 2rem;
+  padding: 0.6rem 2rem;
+  margin-top: 1rem;
   background-image: linear-gradient(to right, #e52d27 0%, #b31217 51%, #e52d27 100%);
   font-size: 16px;
   font-weight: bold;
@@ -147,6 +148,7 @@ main {
 
   .header-nav {
     flex-direction: column;
+    height: 8rem;
   }
 
   .header-nav-logo {
@@ -161,6 +163,7 @@ main {
   .header-nav-menu {
     display: flex;
     justify-content: center;
+    margin-bottom: 0.5rem;
   }
 
   .header-nav-menu > ul {
