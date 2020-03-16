@@ -1,0 +1,45 @@
+/* WARNING: Don't make changes here unless is a requirement to fix an issue */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: red;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 8rem;
+}
+
+.header-nav-logo > img {
+  width: 100%;
+}
+
+.header-nav-menu {
+  width: 100%;
+}
+.header-nav-menu > ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: 2rem;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.header-nav-menu > ul > li {
+  padding: 0 10px;
+  line-height: 16px;
+}
