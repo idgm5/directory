@@ -188,6 +188,18 @@ main {
   width: 80%;
   text-align: justify;
 }
+
+@media (max-width:1300px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
+  }
+  .main-row-search-content > span {
+    width: 100%;
+  }
+}
 /*Mobile Screens*/
 @media (max-width: 767px) {
   .desktop {
