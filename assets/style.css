@@ -140,9 +140,6 @@ main {
   font-weight: bold;
   text-transform: uppercase;
 }
-.search-box > button:hover {
-  background-position: right center;
-}
 
 .main-row-path {
   display: grid;
@@ -281,6 +278,42 @@ footer {
 
 .footer-nav > ul > li {
   padding: 0 1rem;
+}
+
+.footer-contact  h3 {
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+}
+.newsletter {
+  width: 70%;
+  text-align: center;
+  padding: 1rem 5rem;
+}
+
+.newsletter > input {
+  width: 10rem;
+}
+
+.contact,
+.about {
+  margin-left: -5%;
+  margin-right: 10%;
+}
+
+.contact > h3,
+.about > h3 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contact > p,
+.about > p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #f4f4f4;
+  text-align: justify;
 }
 @media (max-width:1300px) {
   header {
