@@ -34,9 +34,29 @@
         <h2>Filter by city name, state or country</h2>
         <div class="search-query-box">
           <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>
+              <h3>City*</h3>
+              <input type="City" name="city-input" placeholder="e.g. San Diego">
+            </li>
+            <li>
+              <h3>State</h3>
+              <input type="State" name="state-input" placeholder="e.g. California">
+            </li>
+            <li>
+              <h3>Country</h3>
+              <input list="countries" name="countries-list">
+              <datalist id="countries">
+                <option value="United States">
+                <option value="Mexico">
+                <option value="Morocco">
+                <option value="Nigeria">
+                <option value="Kenya">
+                <option value="Spain">
+                <option value="Colombia">
+                <option value="Brazil">
+                <option value="India">
+              </datalist>
+            </li>
           </ul>
           <button type="submit">Search</button>
           <button><i class="far fa-edit"></i> Clear Filter</button>
