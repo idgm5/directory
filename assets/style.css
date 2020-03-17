@@ -370,7 +370,8 @@ footer {
   padding: 5rem 0;
 }
 
-.main-search-query > h2 {
+.main-search-query > h2,
+.main-search-results > h2 {
   font-size: 25px;
   text-transform: uppercase;
   margin-bottom: 3rem;
@@ -417,6 +418,33 @@ footer {
   margin-left: 0.5rem;
 }
 
+.main-search-results {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+.search-results-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-results-box {
+  width: 33%;
+  height: 25rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url(https://images.unsplash.com/photo-1518659526054-190340b32735?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
 @media (max-width:1300px) {
   header {
     width: 100%;
