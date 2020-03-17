@@ -315,6 +315,36 @@ footer {
   color: #f4f4f4;
   text-align: justify;
 }
+
+.footer-credits {
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem 0;
+  background: #1f1f1f;
+}
+
+.footer-credits > ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-credits > ul > li {
+  padding: 0 1rem;
+}
+
+.footer-credits i {
+  font-size: 1.2rem;
+}
+
+.copyright > span {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
+.copyright > span > a {
+  text-decoration: none;
+}
 @media (max-width:1300px) {
   header {
     width: 100%;
