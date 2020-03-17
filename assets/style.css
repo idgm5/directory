@@ -253,6 +253,20 @@ main {
 .row-content-col > button {
   width: 10rem;
 }
+
+footer {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  width: 1300px;
+  background: black;
+}
+
+.footer-nav,
+.footer-contact,
+.footer-credits {
+  display: flex;
+  justify-content: space-between;
+}
 @media (max-width:1300px) {
   header {
     width: 100%;
@@ -260,6 +274,11 @@ main {
   main {
     width: 100%;
   }
+
+  footer {
+    width: 100%;
+  }
+
   .main-row-search-content > span {
     width: 100%;
   }
