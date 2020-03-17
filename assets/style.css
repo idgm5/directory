@@ -375,10 +375,14 @@ footer {
     padding: 2rem 0;
   }
 
+  .footer-nav > ul {
+    margin-top: 1rem;
+  }
+  
   .footer-nav-logo {
     display: none;
   }
-  
+
   .newsletter {
     width: 100%;
     padding: 0;
