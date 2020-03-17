@@ -375,6 +375,7 @@ footer {
   font-size: 25px;
   text-transform: uppercase;
   margin-bottom: 3rem;
+  text-align: center;
 }
 .search-query-box {
   display: flex;
@@ -505,6 +506,29 @@ footer {
     width: 150px;
     height: 150px;
     margin-left: 2rem;
+  }
+
+  /* results page for mobile/tablet */
+  .main-search-queary,
+  .search-query-box,
+  .main-search-results,
+  .search-results-container,
+  .search-query-box > ul {
+    flex-direction: column;
+  }
+
+  .search-query-box > ul > li,
+  .search-query-box > button,
+  .search-results-box {
+    margin-top: 1rem;
+  }
+
+  .search-query-box > button {
+    align-self: center;
+  }
+
+  .search-results-box {
+    width: 100%;
   }
 }
 /*Mobile Screens*/
