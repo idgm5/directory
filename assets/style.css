@@ -258,14 +258,29 @@ footer {
   display: grid;
   grid-template-rows: auto auto auto;
   width: 1300px;
-  background: black;
+  background: #e3c268;
 }
 
 .footer-nav,
 .footer-contact,
 .footer-credits {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-nav > ul {
+  display: flex;
+  flex-direction: end;
+  list-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer-nav > ul > li {
+  padding: 0 1rem;
 }
 @media (max-width:1300px) {
   header {
