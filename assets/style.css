@@ -107,7 +107,7 @@ main {
   text-align: center;
 }
 
-.main-search-query > h2,
+.main-search-query > h1,
 .main-search-results > h2 {
   font-size: 25px;
   text-transform: uppercase;
@@ -115,7 +115,7 @@ main {
   text-align: center;
 }
 
-.station-data > h2 {
+.station-data > h1 {
   font-size: 24px;
   text-transform: uppercase;
 }
