@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Hosted on GitHack](https://rawcdn.githack.com/ghamtre/directory/ff3a87325e98d2b04a7546ab117f25cd9bf5ba14/index.html)
+[Hosted on GitHack](https://rawcdn.githack.com/ghamtre/directory/7743a3ad4e6c77f1b2aaab2bcb976103b676ff52/index.html)
 
 ## Created by
 
