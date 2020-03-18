@@ -126,6 +126,15 @@ main {
   margin-bottom: 1rem;
 }
 
+.white-background h2 {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
 .main-row-search-content > div > h2 {
   margin-bottom: 20px;
 }
@@ -167,15 +176,6 @@ main {
   margin-top: 1rem;
   width: 50%;
   border-radius: 0.5rem;
-}
-
-.white-background  h2 {
-  color: black;
-  font-size: 13px;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
-  text-align: left;
 }
 
 .search-box {
