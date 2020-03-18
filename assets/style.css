@@ -316,10 +316,6 @@ main {
   color: #e27f66;
 }
 
-.row-content-gray > .row-content-col > button {
-  color: #98a3a6;
-}
-
 footer {
   display: grid;
   grid-template-rows: 20% auto auto;
@@ -478,6 +474,10 @@ footer {
   border-radius: 3%;
   border: 1px solid;
   cursor: pointer;
+}
+
+.row-content-gray > .row-content-col > button {
+  color: #98a3a6;
 }
 
 .search-query-box > button:last-child {
