@@ -33,4 +33,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Design based on the [Patashule's Directory](https://www.behance.net/gallery/25563385/PatashuleKE) a design concept created by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam). You can follow their work in [Behance](https://www.behance.net/). 
+Design based on the [Patashule's directory](https://www.behance.net/gallery/25563385/PatashuleKE) a design concept created by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam). You can follow their work in [Behance](https://www.behance.net/). 
