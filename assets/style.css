@@ -320,7 +320,7 @@ footer {
   display: grid;
   grid-template-rows: 20% auto auto;
   width: 1300px;
-  background: #e3c268;
+  background: black;
 }
 
 .footer-nav,
@@ -370,6 +370,10 @@ footer {
   width: 10rem;
 }
 
+.newsletter > button {
+  background: gray;
+}
+
 .contact,
 .about {
   margin-left: -5%;
@@ -386,7 +390,7 @@ footer {
 .about > p {
   font-size: 14px;
   font-weight: 400;
-  color: #f4f4f4;
+  color: lightgray;
   text-align: justify;
 }
 
@@ -395,11 +399,14 @@ footer {
   justify-content: space-between;
   padding: 1rem 2rem;
   background: #1f1f1f;
+  border-top: 1px solid #1f1f1f;
 }
 
 .footer-credits > ul {
   list-style: none;
   display: flex;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
 }
 
 .footer-credits > ul > li {
