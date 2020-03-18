@@ -397,7 +397,7 @@ footer {
   text-decoration: none;
 }
 
-/*Results Page*/
+/* Results Page */
 
 .page-results {
   display: grid;
@@ -479,7 +479,7 @@ footer {
   align-items: center;
 }
 
-/*About Page*/
+/* About Page */
 
 .about-page {
   display: flex;
@@ -648,7 +648,7 @@ footer {
   }
 }
 
-/*Mobile Screens*/
+/* Mobile Screens */
 
 @media (max-width: 767px) {
   .desktop {
