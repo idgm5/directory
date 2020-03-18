@@ -312,6 +312,12 @@ main {
 
 .row-content-col > button {
   width: 10rem;
+  background-color: white;
+  color: #e27f66;
+}
+
+.row-content-gray > .row-content-col > button {
+  color: #98a3a6;
 }
 
 footer {
