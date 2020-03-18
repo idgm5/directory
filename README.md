@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-[Hosted on GitHack](https://rawcdn.githack.com/ghamtre/directory/7743a3ad4e6c77f1b2aaab2bcb976103b676ff52/index.html)
+[Hosted on GitHack](https://rawcdn.githack.com/ghamtre/directory/9c1c79d5f9ff9696c35f5888afa1a47335903145/index.html)
 
 ## Created by
 
@@ -33,4 +33,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-Design based on the [Patashule's directory](https://www.behance.net/gallery/25563385/PatashuleKE) a design concept created by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam). You can follow their work in [Behance](https://www.behance.net/). 
+Design based on the [Patashule's directory](https://www.behance.net/gallery/25563385/PatashuleKE) a design concept created by [Mathew Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam). You can follow their work in [Behance](https://www.behance.net/).
