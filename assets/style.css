@@ -115,6 +115,15 @@ main {
   text-align: center;
 }
 
+.main-search-query > h1 {
+  color: #9e9690;
+}
+
+.main-search-results > h2 {
+  color: #4d4c4d;
+  text-transform:none;
+}
+
 .station-data > h1 {
   font-size: 24px;
   text-transform: uppercase;
@@ -439,9 +448,10 @@ footer {
 .main-search-query {
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #eee;
   align-items: center;
   padding: 5rem 0;
+  margin-bottom: 2rem;
 }
 
 .search-query-box {
@@ -460,7 +470,7 @@ footer {
   flex-direction: column;
   font-size: 16px;
   font-weight: bold;
-  color: black;
+  color: #4d4c4d;
   text-transform: uppercase;
 }
 
