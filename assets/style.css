@@ -162,6 +162,22 @@ main {
   margin-top: 1rem;
 }
 
+.white-background {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-top: 1rem;
+  width: 50%;
+  border-radius: 0.5rem;
+}
+
+.white-background  h2 {
+  color: black;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
 .search-box {
   padding: 1.5rem;
 }
@@ -169,7 +185,7 @@ main {
 .search-box > input {
   border: 0;
   padding: 0.7rem;
-  width: 17rem;
+  width: 78%;
   margin-right: -5px;
 }
 
@@ -186,6 +202,10 @@ main {
   font-weight: bold;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.search-box > button {
+  margin: 0;
 }
 
 .main-row-path {
@@ -587,6 +607,11 @@ footer {
 
   .footer-credits > ul {
     margin-bottom: 1rem;
+  }
+
+  .white-background,
+  .search-box > input {
+    width: inherit;
   }
 
   .main-row-search-content > span {
