@@ -493,16 +493,13 @@ footer {
   cursor: pointer;
 }
 
-.search-query-box > button:last-child {
-  background: #e5ab5a;
-}
-
 .row-content-gray > .row-content-col > button {
   color: #98a3a6;
 }
 
 .search-query-box > button:last-child {
   margin-left: 0.5rem;
+  background: #e5ab5a;
 }
 
 .main-search-results {
