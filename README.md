@@ -33,4 +33,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to #Team94 for helping me in understand Bootstrap.
+- Design concept by [Mathew Njuguna](https://www.behance.net/mathewnjuguna)
