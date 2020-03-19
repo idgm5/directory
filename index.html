@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Find Local COVID-19 Testing Stations</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/8e996abce9.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="header-nav">
+        <div class="header-nav-logo" style="cursor:pointer" onclick="location.href='./index.html'">
+          <img src="./assets/salubris_logo.png" alt="Logo image">
+        </div>
+        <div class="header-nav-menu desktop">
+          <ul>
+            <li><a href="./list.html"><i class="fas fa-search-location"></i>  Stations</a></li>
+            <li><a href="./about.html"><i class="fas fa-users"></i>  About</a></li>
+            <li><a href="#"><i class="fas fa-align-justify"></i>  More</a></li>
+          </ul>
+        </div>
+        <div class="header-nav-menu mobile">
+          <ul>
+            <li><a href="#"><i class="fas fa-search-location"></i></a></li>
+            <li><a href="#"><i class="fas fa-users"></i></a></li>
+            <li><a href="#"><i class="fas fa-align-justify"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="main-row-search">
+        <div class="main-row-search-content">
+          <span></span>
+          <div>
+            <h1>Find your nearest COVID-19 testing station</h1>
+            <div class="search-box white-background">
+            <h2>search by city of residence:</h2>
+            <input type="search" name="search-content" placeholder="e.g. Mexico City">
+            <button type="submit" name="search-button">Search</button>
+            </div>
+            <a href="#how">How it works?</a>
+          </div>
+        </div>
+      </section>
+      <section class="main-row-path" id="how">
+        <h2>Please be responsible, and only reach your nearest COVID-19 testing station
+          if you present <a href="https://www.webmd.com/lung/news/20200310/know-the-symptoms-of-covid19">the symptoms</a>,
+          or have been in contact with confirmed cases.</h2>
+        <div class="main-row-path-step">
+          <div class="step-col">
+            <i class="fas fa-map-marked-alt"></i>
+            <h3>Search</h3>
+            <p>Write the name of your city inside of the search box, and click the search button.
+              You can also click in Stations on the top menu to view all the stations in the list.</p>
+          </div>
+          <div class="step-col">
+            <i class="fas fa-edit"></i>
+            <h3>Review</h3>
+            <p>You can submit a review about your experience with the station visited,
+              so more people can be informed about the current situation in the station (Traffic, Safety, etc.).</p>
+          </div>
+        </div>
+        <div class="main-row-path-step">
+          <div class="step-col">
+            <i class="fas fa-book-reader"></i>
+            <h3>Choose</h3>
+            <p>Once you click on the search button, a list of the nearest stations to your city (or in your city) will appear in the results page.
+              Carefully choose the nearest one, and avoid direct contact with other drivers.</p>
+          </div>
+          <div class="step-col">
+            <i class="fas fa-ambulance"></i>
+            <h3>Update</h3>
+            <p>If you know about a new testing station openning in your city, please open an issue ticket in our github repository so we can update our list of stations.</p>
+          </div>
+        </div>
+      </section>
+      <section class="main-row-content">
+        <div class="row-content-red">
+          <div class="row-content-col">
+            <h3>+200 stations and counting</h3>
+            <p>We are contstantly updating our stations list as soon as a new station is open around the world.</p>
+            <button onclick="location.href='./list.html'">View List</button>
+          </div>
+          <div class="row-content-image">
+            <img src="https://images.unsplash.com/photo-1580492516014-4a28466d55df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80" alt="image for row">
+          </div>
+        </div>
+        <div class="row-content-gray">
+          <div class="row-content-col">
+            <h3>Anyone can contribute</h3>
+            <p>We are an open source project, you can always create a pull request, open an issue or help us with updating the list.</p>
+            <button onclick="location.href='https://github.com/ghamtre/directory'">GitHub</button>
+          </div>
+          <div class="row-content-image">
+            <img src="https://images.unsplash.com/photo-1522079091912-1694092d395e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80" alt="image for row">
+          </div>
+        </div>
+        <div class="row-content-blue">
+          <div class="row-content-col">
+            <h3>Stay Safe</h3>
+            <p>Follow <a href="#">the advice of the World Health Organization</a>, and your local authorities.
+              <br>Don't take unncesary risks and stay at home. Think about your family and loved ones.</p>
+          </div>
+          <div class="row-content-image">
+            <img src="https://images.unsplash.com/photo-1484665754804-74b091211472?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80" alt="image for row">
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <nav class="footer-nav">
+        <ul>
+          <li>Home</li>
+          <li>Search</li>
+          <li>About</li>
+          <li>Code</li>
+        </ul>
+        <div class="footer-nav-logo">
+          <img src="./assets/salubris_logo_footer.png" alt="logo in footer">
+        </div>
+        <ul>
+          <li>Twitter</li>
+          <li>Facebook</li>
+          <li>Blog</li>
+          <li>E-Mail</li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <div class="newsletter">
+          <h3>Subscribe</h3>
+          <div class="search-box newsletter">
+          <input type="email" placeholder="isaac@example.com"><button type="submit">Submit</button>
+          </div>
+        </div>
+        <div class="contact">
+          <h3>Contact</h3>
+          <p>You can send an e-mail to isaac@remotelist.pw to request futher information.</p>
+        </div>
+        <div class="about">
+          <h3>About</h3>
+          <p>Salubris is an online directory for COVID-19 Testing stations around the world, currently curated by volunteers.</p>
+        </div>
+      </div>
+      <div class="footer-credits">
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <div class="copyright">
+          <span>&copy; Copyright 2020, <a href="https://github.com/ghamtre">Isaac González</a> - <a href="https://github.com/ghamtre/directory/blob/master/LICENSE">MIT License</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

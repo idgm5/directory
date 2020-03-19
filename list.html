@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Stations List</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/8e996abce9.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="header-nav">
+        <div class="header-nav-logo" style="cursor:pointer" onclick="location.href='./index.html'">
+          <img src="./assets/salubris_logo.png" alt="Logo image">
+        </div>
+        <div class="header-nav-menu desktop">
+          <ul>
+            <li><a href="#"><i class="fas fa-search-location"></i>  Stations</a></li>
+            <li><a href="./about.html"><i class="fas fa-users"></i>  About</a></li>
+            <li><a href="#"><i class="fas fa-align-justify"></i>  More</a></li>
+          </ul>
+        </div>
+        <div class="header-nav-menu mobile">
+          <ul>
+            <li><a href="#"><i class="fas fa-search-location"></i></a></li>
+            <li><a href="#"><i class="fas fa-users"></i></a></li>
+            <li><a href="#"><i class="fas fa-align-justify"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-results">
+      <div class="main-search-query">
+        <h1>Filter by city, state or country</h1>
+        <div class="search-query-box">
+          <ul>
+            <li>
+              <h3>City*</h3>
+              <input type="text" name="city-input" placeholder="e.g. San Diego">
+            </li>
+            <li>
+              <h3>State</h3>
+              <input type="text" name="state-input" placeholder="e.g. California">
+            </li>
+            <li>
+              <h3>Country</h3>
+              <input list="countries" name="countries-list">
+              <datalist id="countries">
+                <option value="United States">
+                <option value="Mexico">
+                <option value="Morocco">
+                <option value="Nigeria">
+                <option value="Kenya">
+                <option value="Spain">
+                <option value="Colombia">
+                <option value="Brazil">
+                <option value="India">
+              </datalist>
+            </li>
+          </ul>
+          <button type="submit">Search</button>
+          <button><i class="far fa-edit"></i> Clear Filter</button>
+        </div>
+      </div>
+      <div class="main-search-results">
+        <h2>Search Results Found 3 station(s). </h2>
+        <div class="search-results-container">
+          <div class="search-results-box">
+            <a href="./about.html">Address: Col. Benito Juarez, Mexico city</a>
+          </div>
+          <div class="search-results-box">
+            <a href="./about.html">Address: Col. Benito Juarez, Mexico city</a>
+          </div>
+          <div class="search-results-box">
+            <a href="./about.html">Address: Col. Benito Juarez, Mexico city</a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <nav class="footer-nav">
+        <ul>
+          <li>Home</li>
+          <li>Search</li>
+          <li>About</li>
+          <li>Code</li>
+        </ul>
+        <div class="footer-nav-logo">
+          <img src="./assets/salubris_logo_footer.png" alt="logo in footer">
+        </div>
+        <ul>
+          <li>Twitter</li>
+          <li>Facebook</li>
+          <li>Blog</li>
+          <li>E-Mail</li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <div class="newsletter">
+          <h3>Subscribe</h3>
+          <div class="search-box newsletter">
+          <input type="email" placeholder="isaac@example.com"><button type="submit">Submit</button>
+          </div>
+        </div>
+        <div class="contact">
+          <h3>Contact</h3>
+          <p>You can send an e-mail to isaac@remotelist.pw to request futher information.</p>
+        </div>
+        <div class="about">
+          <h3>About</h3>
+          <p>Salubris is an online directory for COVID-19 Testing stations around the world, currently curated by volunteers.</p>
+        </div>
+      </div>
+      <div class="footer-credits">
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <div class="copyright">
+          <span>&copy; Copyright 2020, <a href="https://github.com/ghamtre">Isaac González</a> - <a href="https://github.com/ghamtre/directory/blob/master/LICENSE">MIT License</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
